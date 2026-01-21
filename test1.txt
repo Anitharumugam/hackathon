@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    background-image: url(ravi.jpg);
+    background-repeat: no-repeat;
+    background-position: 300px;
+    margin-bottom: 200px;
+    padding-left: 2px;
+    background-size: fill;
+    /* scales image */
+  }
+
+  form {
+    border: solid black;
+    margin-left: 30%;
+    margin-bottom: 35%;
+    border-radius: 10px;
+    padding: 40px;
+    margin-right: 40%;
+    margin-top: 10%;
+    backdrop-filter: blur(2px);
+  }
+
+  h3 {
+    font-style: italic;
+  }
+
+  h2 {
+    font-style: oblique;
+    font-weight: 900;
+  }
+  button{
+    border-radius: 5px;
+    border-color: black;
+    max-width: max-content;
+  }
+</style>
+
+<body>
+  <center>
+    <form action="" border="solid black">
+      <h4>|| sree ayyanar thunai ||</h4>
+      <h3>you are cordially invited to the beautiful ceremony of us and solicit your gracious presence with family on
+        the auspicious occasion.</h3>
+      <h2>wedding ceremony</h2>
+      <h1>K.S.Ravi Kumar</h1>
+      <h3>S/o Mr kannan and Mrs santhi</h3>
+      <h2>weds</h2>
+      <h1>M.Dhanam</h1>
+      <h3>D/o Murugan and Mrs Ambika</h3>
+      <h3>: Reception :</h3>
+      <h4>On thursday 05th feb,2026 07.30PM Onwards</h4>
+      <h3>: Wedding :</h3>
+      <h4>On friday 06th feb,2026 6.00am to 7.30am</h4>
+      <h3>Venue : sree subramanian thirumana mandapam,thirukovilur</h3>
+      <button class="btn" onclick="openLocation()">View Location</button>
+  </center>
+  <script>
+    function openLocation() {
+      window.open("https://www.google.com/maps/dir/13.0469533,80.1767424/Sri+Subramanya+Mahal,+No+21,+Pidari+Amman+kovil+street,+Thirukoilure,+Tamil+Nadu+605757/@12.5090306,79.0320789,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bacaf653e2d37a9:0x73d119804317b533!2m2!1d79.2060669!2d11.9680115?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D", "_blank");
+    }
+  </script>
+</body>
+
+</html>
